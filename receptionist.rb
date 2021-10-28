@@ -1,5 +1,4 @@
 class Receptionist < Person
-
   def initialize(person, office)
     super(person.first_name, person.last_name, person.age, person.gender)
     @office = office
